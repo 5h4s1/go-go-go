@@ -44,7 +44,7 @@ func requestPost(url string, token string){
 }
 
 func main() {
-    url := "https://aws-uat-int-api.mcredit.com.vn/externalchannel/mc-admin-api/api/links"
-    token := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InBlbnRlc3QwMDFAbWNyZWRpdC5jb20udm4iLCJGdWxsTmFtZSI6InBlbnRlc3QwMDEiLCJLZXlMb2dpbiI6ImY5MWQ2MzhhLTdiZjgtNGE1Ni1hMzNmLWIzNTYwNjQ4MWRlMyIsIlBob25lIjoiIiwiU3RhdHVzIjoiYWN0aXZlIiwiZXhwIjoxNjg1NTIzOTIxfQ.xRjcc9KDw784SGfCwxl1EGg72wSgU4IUMCa3SeEND_Q"
+    url := ""
+    token := ""
     requestPost(url, token)
 }
